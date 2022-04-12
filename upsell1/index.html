@@ -293,14 +293,19 @@
           <br>
           <p class="lead fonte1 text-center font-weight-bold"><span class="strike">$ 117</span> <span class="text-primary">R$37</span></p>
           <br>
-          <div id="cta1" class="mt-4">
-            <a href="https://pay.hotmart.com/Y68916705D" class="a-btn" style="text-decoration: none;">
-              <span class="span-btn">¡QUIERO ACCEDER!
-              </span>
-              <span class="span-btn2">(atención: plazas limitadas)
-              </span>
-            </a>
-          </div>
+          <!-- HOTMART - Upsell Widget -->
+          <div id="box_hotmart"></div>
+          <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+
+          <script>
+          opts = {
+          key: 'USL-70200-188761-1280b35ba5ebc114215fd5e459c22790',
+          width: '650' ,
+          height: '420'
+          };
+          Upsell.Widget.show(opts);
+          </script>
+          <!-- HOTMART - Upsell Widget [end] -->
         </div>
       </div>
     </div>
